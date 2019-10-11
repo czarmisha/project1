@@ -2,6 +2,7 @@
 /* ===================ROOT SETTINGS start============== */
 
 :root{
+    --test: red;
     --f100: 'Raleway Thin';
     --f400: 'Raleway Regular';
     --f900: 'Raleway Black';
