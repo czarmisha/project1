@@ -175,6 +175,7 @@ header {
 }
 
 /* ====================== HEADER end================== */
+/* ======================= MAIN start ================ */
 .main {
     padding: 50px 0 100px 0;
 }
@@ -197,10 +198,13 @@ header {
 }
 
 .main__menu-img {
-    width: 350px;
-    height: 350px;
+    /* width: 100%; */
     position: relative;
     margin-bottom: 35px;
+}
+.main__menu-img img{
+    width: 100%;
+    height: auto;
 }
 
 .main__menu-price {
@@ -211,7 +215,7 @@ header {
     color: var(--white);
     background: var(--green-75);
     position: absolute;
-    bottom: 0;
+    bottom: 4px;
     left: 0;
 }
 
@@ -223,6 +227,7 @@ header {
     left: 0;
     background: var(--green-90);
     display: none;
+    cursor: pointer;
 }
 
 .main__menu-img_hover-p {
@@ -257,4 +262,39 @@ header {
 
 .main__margin {
     margin-bottom: 50px;
+}
+
+/* =======================ARTICLE start =============*/
+.article{
+    padding: 50px 0 100px 0;
+    background: url(../images/section_bg.jpg)no-repeat center center /cover;
+}
+.article__title{
+    color: var(--green);
+    font-family: var(--f400);
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+.article__title::after{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: var(--green);
+    margin: 20px auto;
+}
+.article__first-text{
+    margin-top: 45px;
+    font-family: var(--f400);
+    font-size: 18px;
+    color: var(--white);
+    line-height: 24px;
+}
+.article__second-text{
+    margin-top: 30px;
+    font-family: var(--f400);
+    font-size: 18px;
+    color: var(--white);
+    line-height: 24px;
 }
