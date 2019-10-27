@@ -35,8 +35,8 @@
     font-family: var(--f400);
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
-
 .container {
     max-width: 1140px;
     width: 100%;
